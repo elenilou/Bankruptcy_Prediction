@@ -10,7 +10,7 @@ This was developed as the first assignment for the
 
 ## Dataset
 
-The dataset used in this project was provided as part of an academic assignment for the course "[ Machine Learning]" at "[University of Macedonia] ". Due to distribution restrictions, the dataset itself cannot be shared publicly in this repository.
+The dataset used in this project was provided as part of an academic assignment for the course Machine Learning at University of Macedonia. Due to distribution restrictions, the dataset itself cannot be shared publicly in this repository.
 
 The dataset contains financial and operational data for companies over several years (2006-2009). Each entry represents a company-year observation with features such as:
 - Financial ratios (e.g., Liquidity, Profitability, Debt Ratios)
@@ -60,20 +60,20 @@ The performance of the models was evaluated based on their average metrics acros
 
 ### Key Findings:
 
-* [cite_start]**Best Overall Models:** Based on the **F1-Score**, which provides a balance between Precision and Recall, four models stood out: **Random Forest (RF)**, **k-Nearest Neighbors (kNN)**, **Decision Tree (Ctree)**, and **Gradient Boosting (GB)**[cite: 189].
-* [cite_start]**Top Performer:** **Random Forest (RF)** emerged as the most balanced and effective model with the highest F1-Score of **58.24%**[cite: 149, 167, 196]. [cite_start]It also achieved the highest TNR (96.59%), making it excellent at correctly identifying healthy companies[cite: 153].
-* [cite_start]**Best at Identifying Bankruptcies (Recall):** The **Decision Tree (Ctree)** model achieved the highest Recall (**75.81%**), making it the most effective model at correctly identifying bankrupt companies[cite: 147, 181].
-* [cite_start]**Performance Discrepancy:** A significant drop in performance was observed between the balanced training set and the imbalanced test set for all models, particularly in the Precision metric[cite: 162, 163]. This highlights the challenge posed by the dataset's class imbalance.
-* [cite_start]**Underperforming Models:** Models like Logistic Regression, Naive Bayes, Linear Discriminant Analysis, and SVM showed significantly lower F1-Scores and were less suitable for this specific classification task[cite: 191, 198].
+* **Best Overall Models:** Based on the **F1-Score**, which provides a balance between Precision and Recall, four models stood out: **Random Forest (RF)**, **k-Nearest Neighbors (kNN)**, **Decision Tree (Ctree)**, and **Gradient Boosting (GB)**.
+* **Top Performer:** **Random Forest (RF)** emerged as the most balanced and effective model with the highest F1-Score of **58.24%**. It also achieved the highest TNR (96.59%), making it excellent at correctly identifying healthy companies.
+* **Best at Identifying Bankruptcies (Recall):** The **Decision Tree (Ctree)** model achieved the highest Recall (**75.81%**), making it the most effective model at correctly identifying bankrupt companies.
+* **Performance Discrepancy:** A significant drop in performance was observed between the balanced training set and the imbalanced test set for all models, particularly in the Precision metric. This highlights the challenge posed by the dataset's class imbalance.
+* **Underperforming Models:** Models like Logistic Regression, Naive Bayes, Linear Discriminant Analysis, and SVM showed significantly lower F1-Scores and were less suitable for this specific classification task.
 
 | Model                | F1-Score (Avg) | Recall (Avg) | Precision (Avg) | Accuracy (Avg) | TNR (Avg)  |
 | :------------------- | :------------: | :----------: | :-------------: | :------------: | :--------: |
-| **Random Forest (RF)** | [cite_start]**58.24%** [cite: 139]   | [cite_start]69.96% [cite: 139]   | [cite_start]55.96% [cite: 139]      | [cite_start]94.97% [cite: 139]     | [cite_start]**96.59%** [cite: 139] |
-| **k-Nearest Neighbors (kNN)**| [cite_start]57.88% [cite: 139]   | [cite_start]73.19% [cite: 139]   | [cite_start]54.75% [cite: 139]      | [cite_start]94.27% [cite: 139]     | [cite_start]95.26% [cite: 139] |
-| **Decision Tree (Ctree)** | [cite_start]55.66% [cite: 139]   | [cite_start]**75.81%** [cite: 139]   | [cite_start]53.18% [cite: 139]      | [cite_start]90.63% [cite: 139]     | [cite_start]90.74% [cite: 139] |
-| **Gradient Boosting (GB)** | [cite_start]55.03% [cite: 139]   | [cite_start]68.62% [cite: 139]   | [cite_start]54.12% [cite: 139]      | [cite_start]92.92% [cite: 139]     | [cite_start]95.50% [cite: 139] |
+| **Random Forest (RF)** | **58.24%**   | 69.96%   | 55.96%      | 94.97%      | **96.59%** |
+| **k-Nearest Neighbors (kNN)**| 57.88%    | 73.19%    | 54.75%       | 94.27%      | 95.26%  |
+| **Decision Tree (Ctree)** | 55.66%    | **75.81%**   | 53.18%       | 90.63%      | 90.74%  |
+| **Gradient Boosting (GB)** | 55.03%    | 68.62%    | 54.12%       | 92.92%     | 95.50%  |
 
-[cite_start]*(Data sourced from the results table in the project report [cite: 139])*
+*(Data sourced from the results table in the project report)*
 
 ## License
 
@@ -81,5 +81,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Contact
 
-[cite_start]Ελένη Λούλα - Eleni Loula [cite: 6, 12]  
-[cite_start][Ελένη Λούλα - Eleni Loula](https://github.com/elenilou) [cite: 6, 12]  
+https://github.com/elenilou
+https://www.linkedin.com/in/eleni-loula-3381a7253/
