@@ -1,6 +1,6 @@
 # Bankruptcy Prediction using Machine Learning
 
-## Project Overview
+## 📜 Project Overview
 
 This project focuses on developing and evaluating various machine learning models to predict company bankruptcy based on financial and operational indicators. The analysis includes data loading, exploration, pre-processing, handling class imbalance, and evaluating model performance using cross-validation.
 
@@ -8,7 +8,7 @@ This was developed as the first assignment for the
 
 *Machine Learning* course at the *Department of Applied Informatics* of the *University of Macedonia*.
 
-## Dataset
+## 🖼️ Dataset
 
 The dataset used in this project was provided as part of an academic assignment for the course Machine Learning at University of Macedonia. Due to distribution restrictions, the dataset itself cannot be shared publicly in this repository.
 
@@ -54,7 +54,7 @@ The project code is organized in a Jupyter Notebook (`.ipynb` file). Key section
 *   Looping through different classifiers and folds to perform the simulation.
 *   Saving results and confusion matrices.
 
-## Results Summary
+## 📊  Results Summary
 
 The performance of the models was evaluated based on their average metrics across the 4 folds.
 
@@ -75,11 +75,11 @@ The performance of the models was evaluated based on their average metrics acros
 
 *(Data sourced from the results table in the project report)*
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-## Contact
+## 📬 Contact
 
 https://github.com/elenilou
 
